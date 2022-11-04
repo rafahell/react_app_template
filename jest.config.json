@@ -1,0 +1,9 @@
+{
+  "testEnvironment": "jsdom",
+  "collectCoverageFrom": [
+    "<rootDir>/src/components/**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/*.stories.{js,jsx}"
+  ],
+  "testPathIgnorePatterns": ["/cypress"]
+}
